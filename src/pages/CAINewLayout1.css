@@ -1,0 +1,613 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chopsic:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Didot:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Courier+New:wght@400&display=swap");
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+
+@keyframes slide-in-top {
+  0% {
+    transform: translateY(-200px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.perfectdescription,
+.prefectheading {
+  margin: 0;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  line-height: 26.25px;
+}
+.prefectheading {
+  font-size: inherit;
+  letter-spacing: 0.03em;
+  font-weight: 900;
+  font-family: inherit;
+}
+.perfectdescription {
+  font-size: 22px;
+  color: #1a1a1a;
+}
+.perfect-fit,
+.perfectcontent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.perfectcontent {
+  align-self: stretch;
+  flex: 1;
+  align-items: center;
+  gap: 10px;
+}
+.perfect-fit {
+  background-color: #fff3e3;
+  padding: 50px 30px;
+  align-items: flex-start;
+  text-align: center;
+  font-size: 35px;
+  color: #060606;
+  font-family: "Playfair Display SC";
+}
+.modeldesc,
+.modelimage-icon,
+.perfect-fit {
+  align-self: stretch;
+  overflow: hidden;
+}
+.modelimage-icon {
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+.modeldesc {
+  background-color: #fff3e3;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  opacity: 1;
+}
+.modeldesc.animate {
+  animation: 2s ease 0s 1 normal forwards slide-in-top;
+}
+.video-section1 {
+  flex: 1;
+  position: relative;
+  background-color: #fff3e3;
+}
+.blendimage-icon,
+.video-section,
+.video-section1 {
+  align-self: stretch;
+  overflow: hidden;
+}
+.video-section {
+  background-color: #fff3e3;
+  display: flex;
+  flex-direction: row;
+  padding: 20px 30px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.blendimage-icon {
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  max-height: 100%;
+}
+.blendcontainer {
+  align-self: stretch;
+  background-color: #fff3e3;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.bring-out-your,
+.timeless-and-comfy {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+}
+.timeless-and-comfy {
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.bring-out-your {
+  flex: 1;
+  font-size: 17px;
+  letter-spacing: -0.04em;
+  line-height: 25.3px;
+  font-family: Poppins;
+  color: #353535;
+  text-align: justify;
+}
+.text-container {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 164px 30px 100px;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 15px;
+}
+.cai-image2-3 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.imagecontainer,
+.timeless {
+  overflow: hidden;
+  display: flex;
+}
+.imagecontainer {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+.timeless {
+  background-color: #fff3e3;
+  flex-direction: row;
+  padding: 10px 30px;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 50px;
+  text-align: left;
+  font-size: 35px;
+  color: #111;
+  font-family: "Playfair Display SC";
+}
+.gif-section-icon {
+  flex: 1;
+  border-radius: 50px;
+  background-color: #fff3e3;
+  border: 1px solid #000;
+}
+.cai-image4-4,
+.gif-section,
+.gif-section-icon {
+  align-self: stretch;
+  overflow: hidden;
+}
+.gif-section {
+  background-color: #fff3e3;
+  display: flex;
+  flex-direction: row;
+  padding: 30px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.cai-image4-4 {
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+.cai-image4-4-wrapper {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.fashion-meets-comfort {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.a-chic-addition {
+  margin: 0;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  font-size: 17px;
+  letter-spacing: -0.04em;
+  line-height: 25.3px;
+  font-family: Poppins;
+  color: #353535;
+  text-align: justify;
+}
+.text-container1 {
+  align-self: stretch;
+  flex: 1;
+  flex-direction: column;
+  padding: 164px 30px 100px;
+  gap: 15px;
+}
+.cosytext,
+.fashion,
+.text-container1 {
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.fashion {
+  align-self: stretch;
+  background-color: #fff3e3;
+  flex-direction: row;
+  padding: 10px 30px;
+  gap: 50px;
+  text-align: left;
+  font-size: 35px;
+  color: #111;
+  font-family: "Playfair Display SC";
+}
+.cosytext {
+  flex: 1;
+  flex-direction: column;
+  padding: 126px 30px 100px;
+  gap: 15px;
+}
+.cosy-style,
+.imagecontainer1 {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.imagecontainer1 {
+  flex: 1;
+  flex-direction: column;
+}
+.cosy-style {
+  align-self: stretch;
+  background-color: #fff3e3;
+  flex-direction: row;
+  padding: 10px 30px;
+  gap: 50px;
+  text-align: left;
+  font-size: 35px;
+  color: #111;
+  font-family: "Playfair Display SC";
+}
+.galleryleft,
+.sectionbottom,
+.sectiontop {
+  align-self: stretch;
+  flex: 1;
+  overflow: hidden;
+}
+.galleryleft {
+  border-radius: 30px;
+  display: flex;
+  flex-direction: row;
+  padding: 0 10px 0 0;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.sectionbottom,
+.sectiontop {
+  flex-direction: column;
+}
+.sectiontop {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.sectionbottom {
+  padding: 10px 0 0;
+}
+.cainewlayout1,
+.gallery,
+.galleryright,
+.imagegallery,
+.sectionbottom {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.galleryright {
+  align-self: stretch;
+  flex: 1;
+  flex-direction: column;
+}
+.cainewlayout1,
+.gallery,
+.imagegallery {
+  overflow: hidden;
+}
+.gallery {
+  align-self: stretch;
+  flex: 1;
+  border-radius: 50px;
+  flex-direction: row;
+}
+.cainewlayout1,
+.imagegallery {
+  background-color: #fff3e3;
+  flex-direction: column;
+}
+.imagegallery {
+  align-self: stretch;
+  padding: 100px 30px;
+}
+.cainewlayout1 {
+  position: relative;
+  width: 100%;
+  gap: 10px;
+}
+@media screen and (max-width: 1200px) {
+  .galleryright {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 960px) {
+  .timeless-and-comfy {
+    align-self: stretch;
+    width: auto;
+    flex: 1;
+  }
+  .text-container {
+    padding-top: 100px;
+    box-sizing: border-box;
+    flex: unset;
+    align-self: stretch;
+  }
+  .imagecontainer {
+    flex: unset;
+    height: auto;
+    align-items: flex-end;
+    justify-content: flex-start;
+    align-self: stretch;
+  }
+  .timeless {
+    flex-direction: column-reverse;
+    gap: 0;
+    padding: 16px 0;
+    box-sizing: border-box;
+  }
+  .gif-section-icon {
+    border-radius: 30px;
+  }
+  .cai-image4-4 {
+    align-self: stretch;
+    width: auto;
+    flex: 1;
+  }
+  .cai-image4-4-wrapper {
+    flex: unset;
+    align-self: stretch;
+  }
+  .fashion-meets-comfort {
+    align-self: stretch;
+    width: auto;
+    flex: 1;
+  }
+  .text-container1 {
+    padding-top: 100px;
+    box-sizing: border-box;
+    flex: unset;
+    align-self: stretch;
+  }
+  .fashion {
+    flex-direction: column;
+    gap: 0;
+    padding: 16px 0;
+    box-sizing: border-box;
+  }
+  .cosytext,
+  .imagecontainer1 {
+    flex: unset;
+    align-self: stretch;
+  }
+  .cosytext {
+    padding-top: 100px;
+    box-sizing: border-box;
+  }
+  .imagecontainer1 {
+    height: auto;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .cosy-style {
+    flex-direction: column;
+    gap: 0;
+    padding: 16px 0;
+    box-sizing: border-box;
+  }
+  .galleryleft,
+  .galleryright {
+    flex: unset;
+    align-self: stretch;
+    height: auto;
+  }
+  .galleryleft {
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-right: 0;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+  }
+  .galleryright {
+    flex-direction: column;
+  }
+  .gallery {
+    width: 100%;
+    flex-direction: column;
+  }
+  .imagegallery {
+    width: auto;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 420px) {
+  .prefectheading {
+    font-weight: 700;
+    font-family: "Playfair Display SC";
+    font-size: 25px;
+    line-height: 40px;
+  }
+  .perfect-fit {
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+  }
+  .modeldesc {
+    padding: 30px 10px;
+    box-sizing: border-box;
+  }
+  .timeless-and-comfy {
+    font-size: 25px;
+    text-align: left;
+  }
+  .bring-out-your {
+    font-size: 14px;
+    align-self: stretch;
+    width: auto;
+    flex: 1;
+  }
+  .text-container,
+  .timeless {
+    gap: 0;
+    box-sizing: border-box;
+  }
+  .text-container {
+    padding: 20px 10px 0;
+  }
+  .timeless {
+    padding-top: 16px;
+  }
+  .gif-section-icon {
+    border-radius: 10px;
+  }
+  .gif-section {
+    padding: 20px 10px;
+    box-sizing: border-box;
+  }
+  .cai-image4-4 {
+    align-self: stretch;
+    width: auto;
+    flex: 1;
+  }
+  .fashion-meets-comfort {
+    font-size: 25px;
+    text-align: left;
+  }
+  .a-chic-addition {
+    font-size: 14px;
+    align-self: stretch;
+    width: auto;
+    flex: 1;
+  }
+  .text-container1 {
+    gap: 0;
+    padding: 0 10px;
+    box-sizing: border-box;
+  }
+  .fashion {
+    padding-top: 16px;
+  }
+  .cosy-style,
+  .cosytext,
+  .fashion {
+    gap: 0;
+    box-sizing: border-box;
+  }
+  .cosytext {
+    padding: 20px 10px 0;
+  }
+  .cosy-style {
+    padding-top: 16px;
+  }
+  .galleryleft {
+    padding-right: 0;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+  }
+  .galleryleft,
+  .galleryright {
+    flex: unset;
+    align-self: stretch;
+  }
+  .gallery {
+    flex-direction: column;
+    border-radius: 20px;
+  }
+}
+@media screen and (max-width: 497px) {
+  .prefectheading {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 367px) {
+  .prefectheading {
+    font-size: 15px;
+    align-self: stretch;
+    width: auto;
+    flex: 1;
+  }
+  .perfectdescription {
+    font-size: 18px;
+  }
+  .perfect-fit {
+    align-self: stretch;
+    width: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+  }
+  .timeless-and-comfy {
+    font-size: 20px;
+  }
+  .bring-out-your {
+    font-size: 14px;
+    align-self: stretch;
+    width: auto;
+    flex: 1;
+  }
+  .timeless {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+  }
+  .a-chic-addition {
+    align-self: stretch;
+    width: auto;
+    flex: 1;
+  }
+  .fashion {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+  }
+  .cosy-style,
+  .cosytext {
+    padding-top: 50px;
+    box-sizing: border-box;
+  }
+  .cosy-style {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
